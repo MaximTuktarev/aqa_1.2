@@ -32,7 +32,7 @@
         "type": "string",
         "enum": [
           "RUR",
-          "USD"
+          "USB"
         ]
       }
     }
