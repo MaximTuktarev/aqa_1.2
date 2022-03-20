@@ -6,7 +6,10 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 class MobileBankApiTestV2 {
+
+
     @Test
+
     void shouldReturnDemoAccounts() {
       // Given - When - Then
       // Предусловия
@@ -21,6 +24,7 @@ class MobileBankApiTestV2 {
           // .header("Content-Type", "application/json; charset=UTF-8")
           // специализированные проверки - лучше
           .contentType(ContentType.JSON)
+
       ;
     }
 }
